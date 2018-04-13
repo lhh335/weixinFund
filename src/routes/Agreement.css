@@ -1,0 +1,22 @@
+.heading {
+  font-size: 16px;
+  color: #333333;
+  padding: 24px 0;
+}
+
+.basefont {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.subhead {
+  composes: basefont;
+  color: #333333;
+  padding-top: 24px;
+}
+
+.text {
+  composes: basefont;
+  color: #808080;
+}

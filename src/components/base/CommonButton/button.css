@@ -1,0 +1,39 @@
+.base {
+  height: 44px;
+  font-size: 17.5px;
+  color: #fff;
+  width: 100%;
+  border: 0;
+}
+
+.primary {
+  composes: base;
+  background: #197fc3;
+}
+.disabled {
+  composes: base;
+  background: #cccccc;
+}
+.primary--grey {
+  composes: base;
+  background: #e3e3e3;
+  color: #197fc3;
+}
+
+.primary--blue {
+  color: #197fc3;
+  background: #fff;
+  height: 44px;
+  width: 8rem;
+  border: #197fc3 0.06rem solid;
+}
+
+.text {
+  composes: primary-color from '../../../index.css';
+  font-size: 13px;
+}
+
+.text--disabled {
+  composes: text-color from '../../../index.css';
+  font-size: 13px;
+}

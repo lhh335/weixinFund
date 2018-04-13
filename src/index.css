@@ -1,0 +1,122 @@
+html,
+body,
+:global(#root) {
+  height: 100%;
+  font-family: 'PingFangSC-Regular';
+  background-color: #fff !important;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: 'PingFangSC-Regular';
+}
+
+header,
+footer,
+article,
+aside,
+section,
+nav,
+menu,
+hgroup,
+details,
+dialog,
+figure,
+figcaption {
+  display: block;
+}
+
+ol,
+li,
+ul,
+dl,
+dt,
+dd {
+  list-style: none;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333333;
+}
+
+:global(.margin_top_10) {
+  margin-top: 10px;
+}
+
+:global(.margin_top_20) {
+  margin-top: 20px;
+}
+
+:global(.margin_top_50) {
+  margin-top: 50px;
+}
+
+:global(.padding_vertical_normal) {
+  padding: 0 24px;
+}
+
+:global(.padding_right_15) {
+  padding-right: 15px;
+}
+
+:global(.vertical_center) {
+  display: flex;
+  align-items: center;
+}
+
+:global(.horizontal_center) {
+  display: flex;
+  justify-content: center;
+}
+
+.primary-color {
+  color: #197fc3;
+}
+
+.warning-color {
+  color: #ff4e4e;
+}
+
+.disabled-color {
+  color: #e3e3e3;
+}
+
+.text-color {
+  color: #808080;
+}
+.MenuFonter {
+  width: '10px';
+  height: '10px';
+  color: blue;
+  background-color: aqua;
+}
+
+.menuFont :hover {
+  color: red;
+}

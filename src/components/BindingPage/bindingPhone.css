@@ -1,0 +1,21 @@
+.mobile {
+  color: #333333;
+  font-size: 28px;
+  padding: 0.9rem 0;
+}
+
+.text {
+  composes: text-color from '../../index.css';
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.text {
+  composes: text-color from '../../index.css';
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.primary {
+  composes: primary-color from '../../index.css';
+}

@@ -1,0 +1,22 @@
+
+:global(.MenuFonter) {
+     width:86px;
+     height:32px;
+     font-size:14px;
+     display:block;
+     text-align:center;
+     color:#999999;
+     border: none;
+     background-color: #fff;
+ }
+
+
+  :global(.MenuFonter:active) {
+     background-color: #009AFF;
+     color:#fff;
+  }
+
+  
+
+
+

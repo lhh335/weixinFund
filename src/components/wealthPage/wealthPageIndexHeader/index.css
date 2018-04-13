@@ -1,0 +1,44 @@
+:global(.leftTopYuGoBold) {
+     font-size:24px;
+     color:#fff ;
+   }
+
+
+:global(.bottomLineFirstLeftFont) {
+   font-family:'YuGo-Bold';
+   font-size: 16px;
+   color: #FF4E4E;
+ }
+
+
+:global(.bottomLineFirstRightFont) {
+   font-family: 'YuGo-Bold';
+   font-size: 16px;
+   color: #22CB00;
+}
+
+:global(.bottomLineSecondFont) {
+   font-size: 14px;
+   color: #808080;
+}
+
+:global() {
+    
+}
+
+:global() {
+    
+}
+
+:global() {
+    
+}
+
+:global() {
+    
+}
+
+ 
+ 
+
+   
